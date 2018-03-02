@@ -1,3 +1,4 @@
+# 计算图像的熵
 import cv2 as cv
 import numpy as np
 import util
@@ -21,7 +22,7 @@ def entropy(path):
 
     return h
 
-print(entropy("lena.jpg"));
-print(entropy("1.png"));
-print(entropy("2.jpg"));
-print(entropy("3.jpg"));
+print(entropy("lena.jpg"))
+print(entropy("1.png"))
+print(entropy("2.jpg"))
+print(entropy("3.jpg"))

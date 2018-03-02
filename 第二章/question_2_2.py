@@ -1,3 +1,4 @@
+# 将RGB转为yiq和his，添加高斯噪声并转回RGB
 import cv2 as cv
 import numpy as np
 import util
